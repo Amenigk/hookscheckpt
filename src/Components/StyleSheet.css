@@ -8,7 +8,7 @@ body {
   background-color: rgb(93, 116, 101);
 }
  .img{
-    height: 500px;
+    height: 550px;
     width: 350px;
     box-sizing: border-box;
     padding: 10px 10px 10px 10px;
@@ -123,15 +123,7 @@ body {
         padding: 0.5rem 1rem;
       }
       
-      .btn-danger {
-        color: white;
-        background: darkred;
-      }
-      
-      .btn-primary {
-        color: white;
-        background: darkred;
-      }
+ 
       
       .add-movie-btn {
         background:  #4CAF50;
@@ -140,4 +132,28 @@ body {
         bottom: 0;
         left: 0;
       }
+      .frameClass{
+        height: 550px;
+        width: 700px;
+        box-sizing: border-box;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 180px 10px 300px;
+        background: rgb(182, 226, 145);
+        align-items: center;
+        justify-content: center;
+        border: 20px;
+        border-radius: 10px; 
+        text-align: center;
+      }
+      .colorDescription{
+        color: #0a0a0a ;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        font: optional;
+        font-size: x-large;
+      }
            
+      .linkClass{
+        text-decoration: none;
+        
+      }
